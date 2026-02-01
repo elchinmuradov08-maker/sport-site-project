@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f1c2d;
+  color: #fff;
+}
+
+/* Top bar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: #13263f;
+  align-items: center;
+}
+
+.balance {
+  background: #1fa84f;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search {
+  font-size: 20px;
+}
+
+/* Sports nav */
+.sports {
+  display: flex;
+  overflow-x: auto;
+  background: #162c4a;
+  padding: 10px;
+}
+
+.sports span {
+  margin-right: 15px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+/* Bonuses */
+.bonuses {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.bonus {
+  flex: 1;
+  background: linear-gradient(135deg, #1d8cf8, #3358f4);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Match card */
+.match {
+  background: #13263f;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.match h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.odds {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.reklam-2{
+    margin-top: 1%;
+}
+
+.odds button {
+  flex: 1;
+  background: #1b3558;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.odds button b {
+  display: block;
+  margin-top: 5px;
+  color: #4cd964;
+}
+
+/* Bottom nav */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #13263f;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.bottom-nav span {
+  font-size: 20px;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-nav .active {
+  opacity: 1;
+}
